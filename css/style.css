@@ -1,0 +1,76 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('../images/vb.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(29, 2, 2, 0.1);
+}
+
+.welcome-message p {
+    margin-bottom: 15px;
+}
+
+section div nav a {
+    text-decoration: none;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4976;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #bd4156;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}

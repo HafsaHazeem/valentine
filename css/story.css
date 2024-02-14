@@ -1,0 +1,41 @@
+header {
+    background-color: #da73a3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #100f0f;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0%;
+}
+
+
+
+
+
+
+.story-message {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(222, 197, 197, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(57, 52, 52, 0.1);
+}
+
+.story-message p {
+    margin-bottom: 15px;
+}
